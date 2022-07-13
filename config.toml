@@ -1,6 +1,8 @@
 # The URL the site will be built for
-base_url = "http://aaarkid.co"
+base_url = "http://aaarkid.co/"
+interface = "206.189.59.87"
 title = "Hallo"
+theme = "hallo"
 
 # Whether to automatically compile all Sass files in the sass directory
 compile_sass = true

@@ -1,4 +1,5 @@
-./sass/
-./static/
-./templates/
-./themes/
+sass/
+static/
+templates/
+themes/
+public/
