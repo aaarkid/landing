@@ -1,0 +1,35 @@
+# The URL the site will be built for
+base_url = "http://aaarkid.co"
+title = "Hallo"
+
+# Whether to automatically compile all Sass files in the sass directory
+compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = false
+
+[extra]
+# Put all your custom variables here
+theme = "hallo"
+greeting = "Hello!"
+
+iam = "I am"
+
+links = [
+    { title = "E-Mail", url = "mailto:personal@arkid.me", iconset = "fas", icon = "envelope" },
+    { title = "GitHub", url = "https://github.com/aaarkid", icon = "github-alt" },
+    { title = "LinkedIn", url = "https://www.linkedin.com/in/arkid-kaleci/", icon = "linkedin-in" }
+]
+
+[extra.author]
+name = "Arkid"
+
+[extra.theme]
+background = "#1A98AF"
+foreground = "#D8FAFC"
+hover = "#1C6E8F"
